@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_set_time"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SET TIME"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+    <TimePicker
+        android:id="@+id/tp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="输入提示音的文字"/>
+        <Button
+            android:id="@+id/btn_setOK"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Set"
+            android:textSize="40sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
